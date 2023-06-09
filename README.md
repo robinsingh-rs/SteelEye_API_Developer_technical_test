@@ -14,7 +14,7 @@ note: if no filter given endpoint will return all trades.
 
 2: /trades/{id}: This endpoint give trade for the id
 
-3: /search/?search=bob: Search across the trades using this API through the following fields:
+3: /search/?search=bob: Search across the trades using this API through the following fields: <br/>
     * counterparty <br/>
     * instrumentId <br/>
     * instrumentName <br/>
