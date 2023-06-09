@@ -36,3 +36,10 @@ http://localhost:8000/trades?assetClass=Share&maxPrice=10&tradeType=SELL
 
 http://localhost:8000/search?search=Bob
 
+Technologies Used:
+
+* Language: Python
+* Framework: FastAPI
+* Database: In-memory list
+* Additional libraries: datetime
+
