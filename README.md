@@ -4,12 +4,12 @@ Description: The Trades Filtering API provides a flexible and powerful way to fi
 
 Endpoint:
 1: /trades/: This endpoint accepts optional query parameters to filter trades based on specific criteria. The supported query parameters include: <br/>
-    . assetClass: Filters trades by the asset class of the trade.  <br/>
-    . minPrice: Filters trades by the minimum value for the trade price.  <br/>
-    . maxPrice: Filters trades by the maximum value for the trade price.  <br/>
-    . start: Filters trades by the minimum trade date in format(DD-MM-YYYY).  <br/>
-    . end: Filters trades by the maximum trade date in format (DD-MM-YYYY).  <br/>
-    . tradeType: Filters trades by the trade type (BUY or SELL).  <br/>
+    - assetClass: Filters trades by the asset class of the trade.  <br/>
+    - minPrice: Filters trades by the minimum value for the trade price.  <br/>
+    - maxPrice: Filters trades by the maximum value for the trade price.  <br/>
+    - start: Filters trades by the minimum trade date in format(DD-MM-YYYY).  <br/>
+    - end: Filters trades by the maximum trade date in format (DD-MM-YYYY).  <br/>
+    - tradeType: Filters trades by the trade type (BUY or SELL).  <br/>
 note: if no filter given endpoint will return all trades.
 
 2: /trades/{id}: This endpoint give trade for the id
