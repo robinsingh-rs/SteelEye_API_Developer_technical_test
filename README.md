@@ -3,18 +3,18 @@ Description: The Trades Filtering API provides a flexible and powerful way to fi
 
 
 Endpoint:
-1: /trades/: This endpoint accepts optional query parameters to filter trades based on specific criteria. The supported query parameters include: <br/>
-* assetClass: Filters trades by the asset class of the trade.  <br/>
-* minPrice: Filters trades by the minimum value for the trade price.  <br/>
-* maxPrice: Filters trades by the maximum value for the trade price.  <br/>
-* start: Filters trades by the minimum trade date in format(DD-MM-YYYY).  <br/>
-* end: Filters trades by the maximum trade date in format (DD-MM-YYYY).  <br/>
-* tradeType: Filters trades by the trade type (BUY or SELL).  <br/>
+1: __/trades/__: This endpoint accepts optional query parameters to filter trades based on specific criteria. The supported query parameters include: <br/>
+* __assetClass__: Filters trades by the asset class of the trade.  <br/>
+* __minPrice__: Filters trades by the minimum value for the trade price.  <br/>
+* __maxPrice__: Filters trades by the maximum value for the trade price.  <br/>
+* __start__: Filters trades by the minimum trade date in format(DD-MM-YYYY).  <br/>
+* __end__: Filters trades by the maximum trade date in format (DD-MM-YYYY).  <br/>
+* __tradeType__: Filters trades by the trade type (BUY or SELL).  <br/>
 **note:** if no filter given endpoint will return all trades.
 
-2: /trades/{id}: This endpoint give trade for the id
+2: __/trades/{id}__: This endpoint give trade for the id
 
-3: /search/?search=bob: Search across the trades using this API through the following fields: <br/>
+3: __/search/?search=bob__: Search across the trades using this API through the following fields: <br/>
 * counterparty <br/>
 * instrumentId <br/>
 * instrumentName <br/>
